@@ -1,0 +1,27 @@
+Version 1.2 - 12/27/2007
+
+  - Songs can be deleted from the queue by anyone, click the delete icon
+  - Added in Flash player (works only for MP3s)
+  - OGG support!
+  - Lightly cycling color codes on song lists
+  - OGGs are color coded green in the lefthand list
+  - Search box now checks filename/directories
+  - Favicon support, comes with t-bot's default
+  - Added option to disable download of currently playing song
+  - CSS extracted to its own file for easy modding
+  - Mootools JS extracted to its own file
+  - Source client shares a DB file with the frontend again, using HTTP was too latent
+  - Restyled queue section
+  - Refactored controller code for simplicity
+  - Removed campfire client for now
+  - Removed SQLite3 and sqlite3-ruby from package
+
+Version 1.1 - 02-18-2007
+
+  - Source client now POSTs to the frontend, instead of sharing a DB file
+  - Added a Campfire client using Marshmallow
+  - Bundled SQLite3 and sqlite3-ruby
+  
+Version 1.0 - 02-12-2007
+
+  - Initial release
